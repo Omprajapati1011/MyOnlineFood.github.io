@@ -1,0 +1,256 @@
+html{
+   scroll-behavior: smooth;
+    
+}
+
+
+
+ body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;
+  
+    scrollbar-width: none;
+    
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px; 
+    background-color: rgba(10, 10, 10,0.3);
+}
+
+
+/* 
+  #navbar ::before{
+    content: "";
+    background-color: black;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.018; 
+}    */
+
+
+
+
+#logo {
+    margin: 10px 10px;
+}
+
+#logo img {
+    height: 59px;
+    width: 95px;
+    margin: -2px 31px;
+}
+
+#navbar ul {
+    display: flex;
+} 
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+  
+#navbar ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 3px 22px;
+    color: white;
+    border-radius: 20px;
+
+}
+
+ #navbar ul li a:hover {
+    color: rgb(7, 7, 7);
+    background-color: rgb(239, 227, 227);
+} 
+
+#home {
+    display: flex;
+    padding: 3px 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url('pizza-5163800.jpg') no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    height: 642px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home .t1 {
+    color: white;
+    text-align: center;
+    font-size: 3.8rem;
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 12px;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid rgb(6, 6, 6);
+    color: white;
+    margin: 30px;
+    background-color: brown;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.btn:hover {
+    color: brown;
+    margin: 30px;
+    background-color: white;
+}
+
+#services { 
+    display: flex;
+}
+
+
+#services .box {
+    border: 2px solid red;
+    padding: 34px;
+    margin: 10px 4px 20px 4px;
+    border-radius: 23px;
+    background-color: rgb(226, 220, 220);
+
+}
+
+#services .box img {
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+
+.t2 {
+    text-align: center;
+    font-size: 2.3rem;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+.t3 {
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 12px;
+
+}
+
+#services p {
+    text-align: center;
+}
+
+
+#clinets-con {
+    background-color: rgb(226, 220, 220);
+    height: 300px;
+    margin: 35px 0px;
+    
+}
+
+.clientitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.clients {
+     padding: 33px 100px 20px 100px; 
+
+}
+
+.t4 {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#contact{
+    background-color: rgb(226, 220, 220); ;
+
+}
+
+.clients img {
+    width: 124px;
+  } 
+
+
+.t5{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+   
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;       
+     }
+
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+    font-size: 1.3rem;
+    
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+}
+
+
+
+.center{
+    align-items: center;
+    text-align: center;
+}
